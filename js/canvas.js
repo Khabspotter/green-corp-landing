@@ -5,7 +5,7 @@ function generateDecimalBetween(left, right) {
    return (Math.random() * (left - right) + right).toFixed(2);
 }
 
-class Bubble {
+class Bubble { 
    constructor(canvas) {
        this.canvas = canvas;
 
